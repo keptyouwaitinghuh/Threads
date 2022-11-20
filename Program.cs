@@ -27,7 +27,7 @@ namespace lab7
             Console.ReadLine();
 
             Console.Clear();
-            Console.CursorVisible=false;
+            Console.CursorVisible = false;
             for(int i = 0; i < 5; ++i)
             {
                 Thread t = new Thread(new ThreadStart(Comp.SinInt));
